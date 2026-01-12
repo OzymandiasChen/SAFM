@@ -141,9 +141,4 @@ Concact
 -----------------
 If you have any questions about our paper and code, please contact the authors.
 
-<<<<<<< HEAD
-=======
 
-
-
->>>>>>> 33b2f3b5070a123f9b9c4bd735a7bd5154f793e2
