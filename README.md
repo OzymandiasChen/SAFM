@@ -9,7 +9,9 @@ In the decision stage, SAFM determines whether to incorporate a new adapter, reu
 In the tuning stage, SAFM especially facilitates a layer-wise loss to encourage differentiation between adapters, effectively capturing knowledge within the same task. 
 
 
-![Overview of SAFM](./figs/Overall.png)
+<p align="center">
+  <img src="./figs/Overall.png" width="80%">
+</p>
 
 
 Data Preparation
