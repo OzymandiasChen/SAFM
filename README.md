@@ -124,7 +124,12 @@ Citation
 -----------------
 
 ```bibtex
-TBA
+@inproceedings{safm,
+    title = "Sparse Adapter Fusion for Continual Learning in NLP",
+    author = "Zeng, Min and Chen, Xi and and Yang, Haiqin and Guo, Yike",
+    booktitle = "The 19th Conference of the European Chapter of the Association for Computational Linguistics (EACL)",
+    year = "2026",
+}
 ```
 
 Thanks
@@ -136,6 +141,9 @@ Concact
 -----------------
 If you have any questions about our paper and code, please contact the authors.
 
+<<<<<<< HEAD
+=======
 
 
 
+>>>>>>> 33b2f3b5070a123f9b9c4bd735a7bd5154f793e2
