@@ -136,10 +136,6 @@ Concact
 -----------------
 If you have any questions about our paper and code, please contact the authors.
 
-Note
------------------
-NA
-
 
 
 
