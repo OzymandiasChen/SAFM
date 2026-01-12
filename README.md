@@ -66,7 +66,7 @@ Data Preparation
     ```
             {"data":[
                             {
-                                "title": "dummy", 
+                                "title": "", 
                                 "paragraphs": [
                                         {
                                             "context": "attraction_inform(address=\"Cambridge Passenger Cruisers\",address=\"Jubilee House\"name=\"Riverboat Georgina\")", 
@@ -124,7 +124,7 @@ Citation
 -----------------
 
 ```bibtex
-@inproceedings{safm,
+@inproceedings{safm2026,
     title = "Sparse Adapter Fusion for Continual Learning in NLP",
     author = "Zeng, Min and Chen, Xi and and Yang, Haiqin and Guo, Yike",
     booktitle = "The 19th Conference of the European Chapter of the Association for Computational Linguistics (EACL)",
