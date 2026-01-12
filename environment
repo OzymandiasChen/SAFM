@@ -1,0 +1,4 @@
+export DATA_DIR='/project/data'
+export MODEL_ROOT_DIR='/project/models'
+export LOG_DIR='/project/project/logs'
+export CODE_DIR='/project/project/SAFM'

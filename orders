@@ -1,0 +1,35 @@
+
+# --cm_continue_from_task $TM20_flight_intent  \
+
+e2enlg=e2enlg                               # (restaurant, ) 6000
+rnnlg_rest=rnnlg.rest                       # restaurant 6228
+rnnlg_hotel=rnnlg.hotel                     # hotel 6446
+rnnlg_tv=rnnlg.tv                           # 8442
+rnnlg_laptop=rnnlg.laptop                   # 7944
+woz_en=woz.en                               # 2536
+wikisql=wikisql                             # 6525
+cnn_dailymail=cnn_dailymail                 # 6604
+srl=srl                                     # 6414 qa
+
+# nlg
+# restaurant
+TM19_restaurant_nlg=TM19.restaurant.nlg     # 2582 latter
+TM20_restaurant_nlg=TM20.restaurant.nlg     # 8356
+MWOZ_restaurant_nlg=MWOZ.restaurant.nlg     # 1924 no
+SGD_restaurant_nlg=SGD.restaurant.nlg       # 1720 latter
+# hotel
+TM20_hotel_nlg=TM20.hotel.nlg               # 6590
+MWOZ_hotel_nlg=MWOZ.hotel.nlg               # 3333 no
+SGD_hotel_nlg=SGD.hotel.nlg                 # 1997 latter
+#flight
+TM20_flight_nlg=TM20.flight.nlg             # 10148
+SGD_flight_nlg=SGD.flight.nlg               # 2571 latter
+#movie
+TM19_movie_nlg=TM19.movie.nlg               # 3010
+TM20_movie_nlg=TM20.movie.nlg               # 9406
+SGD_movie_nlg=SGD.movie.nlg                 # 996  no
+
+
+export nlg_order01="$e2enlg $rnnlg_rest $rnnlg_hotel $SGD_hotel_nlg $rnnlg_laptop \
+    $rnnlg_tv $SGD_restaurant_nlg $SGD_flight_nlg $TM19_movie_nlg $TM20_hotel_nlg \
+    $TM20_restaurant_nlg $TM20_flight_nlg $TM20_movie_nlg $TM19_restaurant_nlg "
