@@ -126,11 +126,24 @@ Citation
 -----------------
 
 ```bibtex
-@inproceedings{safm2026,
-    title = "Sparse Adapter Fusion for Continual Learning in NLP",
-    author = "Zeng, Min and Chen, Xi and and Yang, Haiqin and Guo, Yike",
-    booktitle = "The 19th Conference of the European Chapter of the Association for Computational Linguistics (EACL)",
+@inproceedings{zeng-etal-2026-sparse,
+    title = "Sparse Adapter Fusion for Continual Learning in {NLP}",
+    author = "Zeng, Min  and
+      Chen, Xi  and
+      Yang, Haiqin  and
+      Guo, Yike",
+    editor = "Demberg, Vera  and
+      Inui, Kentaro  and
+      Marquez, Llu{\'i}s",
+    booktitle = "Proceedings of the 19th Conference of the {E}uropean Chapter of the {A}ssociation for {C}omputational {L}inguistics (Volume 1: Long Papers)",
+    month = mar,
     year = "2026",
+    address = "Rabat, Morocco",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.eacl-long.37/",
+    doi = "10.18653/v1/2026.eacl-long.37",
+    pages = "852--863",
+    ISBN = "979-8-89176-380-7",
 }
 ```
 
